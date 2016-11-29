@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7172442C1DED4228009FE675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7172442B1DED4228009FE675 /* AppDelegate.swift */; };
+		7172442E1DED4228009FE675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7172442D1DED4228009FE675 /* ViewController.swift */; };
+		717244311DED4228009FE675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7172442F1DED4228009FE675 /* Main.storyboard */; };
+		717244341DED4228009FE675 /* SoapApiExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 717244321DED4228009FE675 /* SoapApiExample.xcdatamodeld */; };
+		717244361DED4228009FE675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717244351DED4228009FE675 /* Assets.xcassets */; };
+		717244391DED4228009FE675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717244371DED4228009FE675 /* LaunchScreen.storyboard */; };
+		717244441DED4228009FE675 /* SoapApiExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717244431DED4228009FE675 /* SoapApiExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		717244401DED4228009FE675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717244201DED4228009FE675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717244271DED4228009FE675;
+			remoteInfo = SoapApiExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		717244281DED4228009FE675 /* SoapApiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoapApiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7172442B1DED4228009FE675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7172442D1DED4228009FE675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		717244301DED4228009FE675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		717244331DED4228009FE675 /* SoapApiExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoapApiExample.xcdatamodel; sourceTree = "<group>"; };
+		717244351DED4228009FE675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717244381DED4228009FE675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7172443A1DED4228009FE675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7172443F1DED4228009FE675 /* SoapApiExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoapApiExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		717244431DED4228009FE675 /* SoapApiExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoapApiExampleTests.swift; sourceTree = "<group>"; };
+		717244451DED4228009FE675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717244251DED4228009FE675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7172443C1DED4228009FE675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7172441F1DED4228009FE675 = {
+			isa = PBXGroup;
+			children = (
+				7172442A1DED4228009FE675 /* SoapApiExample */,
+				717244421DED4228009FE675 /* SoapApiExampleTests */,
+				717244291DED4228009FE675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717244291DED4228009FE675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717244281DED4228009FE675 /* SoapApiExample.app */,
+				7172443F1DED4228009FE675 /* SoapApiExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7172442A1DED4228009FE675 /* SoapApiExample */ = {
+			isa = PBXGroup;
+			children = (
+				7172442B1DED4228009FE675 /* AppDelegate.swift */,
+				7172442D1DED4228009FE675 /* ViewController.swift */,
+				7172442F1DED4228009FE675 /* Main.storyboard */,
+				717244351DED4228009FE675 /* Assets.xcassets */,
+				717244371DED4228009FE675 /* LaunchScreen.storyboard */,
+				7172443A1DED4228009FE675 /* Info.plist */,
+				717244321DED4228009FE675 /* SoapApiExample.xcdatamodeld */,
+			);
+			path = SoapApiExample;
+			sourceTree = "<group>";
+		};
+		717244421DED4228009FE675 /* SoapApiExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				717244431DED4228009FE675 /* SoapApiExampleTests.swift */,
+				717244451DED4228009FE675 /* Info.plist */,
+			);
+			path = SoapApiExampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717244271DED4228009FE675 /* SoapApiExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717244481DED4228009FE675 /* Build configuration list for PBXNativeTarget "SoapApiExample" */;
+			buildPhases = (
+				717244241DED4228009FE675 /* Sources */,
+				717244251DED4228009FE675 /* Frameworks */,
+				717244261DED4228009FE675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoapApiExample;
+			productName = SoapApiExample;
+			productReference = 717244281DED4228009FE675 /* SoapApiExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7172443E1DED4228009FE675 /* SoapApiExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7172444B1DED4228009FE675 /* Build configuration list for PBXNativeTarget "SoapApiExampleTests" */;
+			buildPhases = (
+				7172443B1DED4228009FE675 /* Sources */,
+				7172443C1DED4228009FE675 /* Frameworks */,
+				7172443D1DED4228009FE675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717244411DED4228009FE675 /* PBXTargetDependency */,
+			);
+			name = SoapApiExampleTests;
+			productName = SoapApiExampleTests;
+			productReference = 7172443F1DED4228009FE675 /* SoapApiExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717244201DED4228009FE675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = madoak;
+				TargetAttributes = {
+					717244271DED4228009FE675 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7172443E1DED4228009FE675 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 717244271DED4228009FE675;
+					};
+				};
+			};
+			buildConfigurationList = 717244231DED4228009FE675 /* Build configuration list for PBXProject "SoapApiExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7172441F1DED4228009FE675;
+			productRefGroup = 717244291DED4228009FE675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				717244271DED4228009FE675 /* SoapApiExample */,
+				7172443E1DED4228009FE675 /* SoapApiExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717244261DED4228009FE675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717244391DED4228009FE675 /* LaunchScreen.storyboard in Resources */,
+				717244361DED4228009FE675 /* Assets.xcassets in Resources */,
+				717244311DED4228009FE675 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7172443D1DED4228009FE675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717244241DED4228009FE675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7172442E1DED4228009FE675 /* ViewController.swift in Sources */,
+				717244341DED4228009FE675 /* SoapApiExample.xcdatamodeld in Sources */,
+				7172442C1DED4228009FE675 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7172443B1DED4228009FE675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717244441DED4228009FE675 /* SoapApiExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		717244411DED4228009FE675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717244271DED4228009FE675 /* SoapApiExample */;
+			targetProxy = 717244401DED4228009FE675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7172442F1DED4228009FE675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717244301DED4228009FE675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		717244371DED4228009FE675 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717244381DED4228009FE675 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717244461DED4228009FE675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		717244471DED4228009FE675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717244491DED4228009FE675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoapApiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.madoak.SoapApiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7172444A1DED4228009FE675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoapApiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.madoak.SoapApiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7172444C1DED4228009FE675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoapApiExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.jll.SoapApiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoapApiExample.app/SoapApiExample";
+			};
+			name = Debug;
+		};
+		7172444D1DED4228009FE675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoapApiExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.jll.SoapApiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoapApiExample.app/SoapApiExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717244231DED4228009FE675 /* Build configuration list for PBXProject "SoapApiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717244461DED4228009FE675 /* Debug */,
+				717244471DED4228009FE675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717244481DED4228009FE675 /* Build configuration list for PBXNativeTarget "SoapApiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717244491DED4228009FE675 /* Debug */,
+				7172444A1DED4228009FE675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7172444B1DED4228009FE675 /* Build configuration list for PBXNativeTarget "SoapApiExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7172444C1DED4228009FE675 /* Debug */,
+				7172444D1DED4228009FE675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		717244321DED4228009FE675 /* SoapApiExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				717244331DED4228009FE675 /* SoapApiExample.xcdatamodel */,
+			);
+			currentVersion = 717244331DED4228009FE675 /* SoapApiExample.xcdatamodel */;
+			path = SoapApiExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 717244201DED4228009FE675 /* Project object */;
+}
